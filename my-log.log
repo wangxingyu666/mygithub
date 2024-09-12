@@ -1,0 +1,18 @@
+2024-09-09T18:27:37.498+08:00  INFO 5152 --- [restartedMain] top.wangxingyu.Application               : Starting Application using Java 17.0.4.1 with PID 5152 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+2024-09-09T18:27:37.500+08:00  INFO 5152 --- [restartedMain] top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T18:27:37.525+08:00  INFO 5152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09T18:27:37.525+08:00  INFO 5152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09T18:27:38.059+08:00  INFO 5152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-09T18:27:38.068+08:00  INFO 5152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-09T18:27:38.068+08:00  INFO 5152 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09T18:27:38.099+08:00  INFO 5152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-09T18:27:38.100+08:00  INFO 5152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 563 ms
+2024-09-09T18:27:38.322+08:00  INFO 5152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-09T18:27:38.343+08:00  INFO 5152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09T18:27:38.350+08:00  INFO 5152 --- [restartedMain] top.wangxingyu.Application               : Started Application in 1.103 seconds (process running for 1.485)
+2024-09-09T18:28:08.051+08:00  INFO 5152 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09T18:28:08.051+08:00  INFO 5152 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-09T18:28:08.052+08:00  INFO 5152 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-09T18:28:08.073+08:00  INFO 5152 --- [http-nio-8080-exec-2] t.wangxingyu.controller.LogController    : This is an INFO log
+2024-09-09T18:28:08.073+08:00  WARN 5152 --- [http-nio-8080-exec-2] t.wangxingyu.controller.LogController    : This is a WARN log
+2024-09-09T18:28:08.073+08:00 ERROR 5152 --- [http-nio-8080-exec-2] t.wangxingyu.controller.LogController    : This is an ERROR log
