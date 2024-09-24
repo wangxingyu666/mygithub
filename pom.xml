@@ -14,6 +14,13 @@
     <packaging>pom</packaging>
     <name>spring-boot-practice</name>
     <description>spring-boot-practice</description>
+    <modules>
+        <module>spring-boot-thymeleaf</module>
+        <module>spring-boot-logging</module>
+        <module>Zhihu</module>
+        <module>spring-boot-configure</module>
+        <module>spring-boot-quick</module>
+    </modules>
 
     <properties>
         <java.version>17</java.version>
@@ -30,7 +37,15 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
+
+
 
     <build>
         <plugins>
