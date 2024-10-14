@@ -1,6 +1,6 @@
 2024-09-09T18:36:28.682+08:00  INFO 16760 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-09-09T18:36:28.952+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.Application               : Starting Application using Java 17.0.4.1 with PID 16760 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-2024-09-09T18:36:28.952+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T18:36:28.952+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 16760 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+2024-09-09T18:36:28.952+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
 2024-09-09T18:36:29.030+08:00  INFO 16760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
 2024-09-09T18:36:29.042+08:00  INFO 16760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
 2024-09-09T18:36:29.042+08:00  INFO 16760 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
@@ -8,12 +8,12 @@
 2024-09-09T18:36:29.061+08:00  INFO 16760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
 2024-09-09T18:36:29.101+08:00  INFO 16760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2024-09-09T18:36:29.106+08:00  INFO 16760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T18:36:29.109+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.Application               : Started Application in 0.17 seconds (process running for 157.878)
+2024-09-09T18:36:29.109+08:00  INFO 16760 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Started top.wangxingyu.Application in 0.17 seconds (process running for 157.878)
 2024-09-09T18:36:29.109+08:00  INFO 16760 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-09-09 18:39:45 - Starting Application using Java 17.0.4.1 with PID 1876 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+2024-09-09 18:39:45 - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 1876 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
 2024-09-09 18:39:45 - Running with Spring Boot v3.3.3, Spring v6.1.12
 2024-09-09 18:39:45 - No active profile set, falling back to 1 default profile: "default"
-2024-09-09 18:39:45 - Loading source class top.wangxingyu.Application
+2024-09-09 18:39:45 - Loading source class top.wangxingyu.top.wangxingyu.Application
 2024-09-09 18:39:45 - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 2024-09-09 18:39:45 - Included patterns for restart : []
 2024-09-09 18:39:45 - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -247,7 +247,7 @@
 2024-09-09 18:39:45 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 2024-09-09 18:39:45 - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 2024-09-09 18:39:45 - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-2024-09-09 18:39:45 - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2024-09-09 18:39:45 - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 2024-09-09 18:39:45 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 2024-09-09 18:39:45 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 2024-09-09 18:39:45 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -1332,12 +1332,12 @@ Unconditional classes:
 
 
 
-2024-09-09 18:39:46 - Started Application in 1.18 seconds (process running for 1.569)
-2024-09-09 18:39:46 - Application availability state LivenessState changed to CORRECT
+2024-09-09 18:39:46 - Started top.wangxingyu.Application in 1.18 seconds (process running for 1.569)
+2024-09-09 18:39:46 - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 2024-09-09 18:39:46 - Creating new Restarter for thread Thread[main,5,main]
 2024-09-09 18:39:46 - Immediately restarting application
-2024-09-09 18:39:46 - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-2024-09-09 18:39:46 - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-09-09 18:39:46 - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+2024-09-09 18:39:46 - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 2024-09-09 18:39:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-09 18:39:53 - Initializing Servlet 'dispatcherServlet'
 2024-09-09 18:39:53 - Detected StandardServletMultipartResolver
@@ -1356,7 +1356,7 @@ Unconditional classes:
 2024-09-09 18:39:53 - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
 2024-09-09 18:39:53 - Writing ["Logs have been generated!"]
 2024-09-09 18:39:53 - Completed 200 OK
-2024-09-09 18:43:31 - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-09-09 18:43:31 - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 2024-09-09 18:43:31 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@265e7c8b, started on Mon Sep 09 18:39:45 CST 2024
 2024-09-09 18:43:31 - Stopping beans in phase 2147483647
 2024-09-09 18:43:31 - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -1368,8 +1368,8 @@ Unconditional classes:
 2024-09-09 18:43:32 - Bean 'springBootLoggingLifecycle' completed its stop procedure
 2024-09-09 18:43:32 - Unregistering JMX-exposed beans on shutdown
 2024-09-09 18:43:32 - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-09-09T18:43:33.950+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.Application               : Starting Application using Java 17.0.4.1 with PID 16624 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-2024-09-09T18:43:33.952+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T18:43:33.950+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 16624 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+2024-09-09T18:43:33.952+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
 2024-09-09T18:43:33.978+08:00  INFO 16624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-09-09T18:43:33.978+08:00  INFO 16624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-09-09T18:43:34.519+08:00  INFO 16624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
@@ -1379,17 +1379,17 @@ Unconditional classes:
 2024-09-09T18:43:34.570+08:00  INFO 16624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 591 ms
 2024-09-09T18:43:34.784+08:00  INFO 16624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2024-09-09T18:43:34.808+08:00  INFO 16624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T18:43:34.814+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.Application               : Started Application in 1.127 seconds (process running for 1.532)
+2024-09-09T18:43:34.814+08:00  INFO 16624 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Started top.wangxingyu.Application in 1.127 seconds (process running for 1.532)
 2024-09-09T18:43:39.709+08:00  INFO 16624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-09T18:43:39.709+08:00  INFO 16624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-09-09T18:43:39.709+08:00  INFO 16624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2024-09-09T18:43:39.727+08:00  INFO 16624 --- [http-nio-8080-exec-1] t.wangxingyu.controller.LogController    : This is an INFO log
 2024-09-09T18:43:39.727+08:00  WARN 16624 --- [http-nio-8080-exec-1] t.wangxingyu.controller.LogController    : This is a WARN log
 2024-09-09T18:43:39.727+08:00 ERROR 16624 --- [http-nio-8080-exec-1] t.wangxingyu.controller.LogController    : This is an ERROR log
-18:45:52 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 1656 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-18:45:52 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-18:45:52 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-18:45:52 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+18:45:52 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 1656 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+18:45:52 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+18:45:52 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+18:45:52 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 18:45:52 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 18:45:52 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 18:45:52 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -1623,7 +1623,7 @@ Unconditional classes:
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-18:45:53 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+18:45:53 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 18:45:53 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -2708,12 +2708,12 @@ Unconditional classes:
 
 
 
-18:45:53 [restartedMain] INFO  t.w.Application - Started Application in 1.26 seconds (process running for 1.715)
-18:45:53 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:45:53 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.26 seconds (process running for 1.715)
+18:45:53 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 18:45:53 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 18:45:53 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-18:45:53 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-18:45:53 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:45:53 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+18:45:53 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 18:47:20 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 18:47:20 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 18:47:20 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
@@ -2741,7 +2741,7 @@ Unconditional classes:
 18:47:21 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
 18:47:21 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Logs have been generated!"]
 18:47:21 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
-18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a7422dd, started on Mon Sep 09 18:45:52 CST 2024
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -2753,10 +2753,10 @@ Unconditional classes:
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 18:48:00 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-18:48:18 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 4628 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-18:48:18 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-18:48:18 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-18:48:18 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+18:48:18 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 4628 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+18:48:18 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+18:48:18 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+18:48:18 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 18:48:18 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 18:48:18 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 18:48:18 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -2990,7 +2990,7 @@ Unconditional classes:
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-18:48:18 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+18:48:18 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 18:48:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -4075,12 +4075,12 @@ Unconditional classes:
 
 
 
-18:48:18 [restartedMain] INFO  t.w.Application - Started Application in 1.162 seconds (process running for 1.553)
-18:48:18 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:48:18 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.162 seconds (process running for 1.553)
+18:48:18 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 18:48:18 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 18:48:18 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-18:48:18 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-18:48:18 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:48:18 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+18:48:18 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 18:48:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 18:48:23 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 18:48:23 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
@@ -4099,7 +4099,7 @@ Unconditional classes:
 18:48:23 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
 18:48:23 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Logs have been generated!"]
 18:48:23 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
-18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d39972c, started on Mon Sep 09 18:48:18 CST 2024
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -4111,10 +4111,10 @@ Unconditional classes:
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 18:54:17 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-18:54:19 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 17216 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-18:54:19 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-18:54:19 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-18:54:19 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+18:54:19 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 17216 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+18:54:19 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+18:54:19 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+18:54:19 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 18:54:19 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 18:54:19 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 18:54:19 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -4348,7 +4348,7 @@ Unconditional classes:
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-18:54:20 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+18:54:20 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 18:54:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -5433,13 +5433,13 @@ Unconditional classes:
 
 
 
-18:54:20 [restartedMain] INFO  t.w.Application - Started Application in 1.164 seconds (process running for 1.538)
-18:54:20 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:54:20 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.164 seconds (process running for 1.538)
+18:54:20 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 18:54:20 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 18:54:20 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-18:54:20 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-18:54:20 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+18:54:20 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+18:54:20 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a7422dd, started on Mon Sep 09 18:54:19 CST 2024
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -5451,10 +5451,10 @@ Unconditional classes:
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 19:01:22 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-19:03:10 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 18724 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-19:03:10 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-19:03:10 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-19:03:10 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+19:03:10 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 18724 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+19:03:10 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+19:03:10 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+19:03:10 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 19:03:10 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 19:03:10 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 19:03:10 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -5688,7 +5688,7 @@ Unconditional classes:
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-19:03:11 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+19:03:11 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 19:03:11 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -6773,13 +6773,13 @@ Unconditional classes:
 
 
 
-19:03:11 [restartedMain] INFO  t.w.Application - Started Application in 1.165 seconds (process running for 1.55)
-19:03:11 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:03:11 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.165 seconds (process running for 1.55)
+19:03:11 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 19:03:11 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 19:03:11 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-19:03:11 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-19:03:11 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:03:11 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+19:03:11 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b31cdbd, started on Mon Sep 09 19:03:10 CST 2024
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -6791,10 +6791,10 @@ Unconditional classes:
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 19:04:37 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-19:04:39 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 11760 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-19:04:39 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-19:04:39 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-19:04:39 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+19:04:39 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 11760 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+19:04:39 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+19:04:39 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+19:04:39 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 19:04:39 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 19:04:39 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 19:04:39 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -7028,7 +7028,7 @@ Unconditional classes:
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-19:04:40 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+19:04:40 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 19:04:40 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -8113,13 +8113,13 @@ Unconditional classes:
 
 
 
-19:04:40 [restartedMain] INFO  t.w.Application - Started Application in 1.202 seconds (process running for 1.612)
-19:04:40 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:04:40 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.202 seconds (process running for 1.612)
+19:04:40 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 19:04:40 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 19:04:40 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-19:04:40 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-19:04:40 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:04:40 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+19:04:40 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@cc4070d, started on Mon Sep 09 19:04:39 CST 2024
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -8131,10 +8131,10 @@ Unconditional classes:
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 19:04:55 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-19:04:57 [restartedMain] INFO  t.w.Application - Starting Application using Java 17.0.4.1 with PID 17068 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-19:04:57 [restartedMain] DEBUG t.w.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
-19:04:57 [restartedMain] INFO  t.w.Application - No active profile set, falling back to 1 default profile: "default"
-19:04:57 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.Application
+19:04:57 [restartedMain] INFO  t.w.top.wangxingyu.Application - Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 17068 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+19:04:57 [restartedMain] DEBUG t.w.top.wangxingyu.Application - Running with Spring Boot v3.3.3, Spring v6.1.12
+19:04:57 [restartedMain] INFO  t.w.top.wangxingyu.Application - No active profile set, falling back to 1 default profile: "default"
+19:04:57 [restartedMain] DEBUG o.s.b.SpringApplication - Loading source class top.wangxingyu.top.wangxingyu.Application
 19:04:57 [restartedMain] DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
 19:04:57 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 19:04:57 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -8368,7 +8368,7 @@ Unconditional classes:
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
-19:04:58 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+19:04:58 [restartedMain] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - top.wangxingyu.Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
 19:04:58 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
@@ -9453,13 +9453,13 @@ Unconditional classes:
 
 
 
-19:04:58 [restartedMain] INFO  t.w.Application - Started Application in 1.161 seconds (process running for 1.55)
-19:04:58 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:04:58 [restartedMain] INFO  t.w.top.wangxingyu.Application - Started top.wangxingyu.Application in 1.161 seconds (process running for 1.55)
+19:04:58 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state LivenessState changed to CORRECT
 19:04:58 [restartedMain] DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
 19:04:58 [restartedMain] DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-19:04:58 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
-19:04:58 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:04:58 [restartedMain] DEBUG o.s.b.d.r.Restarter - Starting application top.wangxingyu.top.wangxingyu.Application with URLs [file:/E:/java课程/idea/spring-boot-practice/spring-boot-logging/target/classes/]
+19:04:58 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.b.a.ApplicationAvailabilityBean - top.wangxingyu.Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b31cdbd, started on Mon Sep 09 19:04:57 CST 2024
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
@@ -9471,8 +9471,8 @@ Unconditional classes:
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 19:07:33 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-09-09T19:07:50.457+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.Application               : Starting Application using Java 17.0.4.1 with PID 20272 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
-2024-09-09T19:07:50.459+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T19:07:50.457+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Starting top.wangxingyu.Application using Java 17.0.4.1 with PID 20272 (E:\java课程\idea\spring-boot-practice\spring-boot-logging\target\classes started by 笼中雀 in E:\java课程\idea\spring-boot-practice)
+2024-09-09T19:07:50.459+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : No active profile set, falling back to 1 default profile: "default"
 2024-09-09T19:07:50.485+08:00  INFO 20272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-09-09T19:07:50.485+08:00  INFO 20272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-09-09T19:07:50.989+08:00  INFO 20272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
@@ -9482,7 +9482,7 @@ Unconditional classes:
 2024-09-09T19:07:51.027+08:00  INFO 20272 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 542 ms
 2024-09-09T19:07:51.250+08:00  INFO 20272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2024-09-09T19:07:51.273+08:00  INFO 20272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T19:07:51.280+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.Application               : Started Application in 1.083 seconds (process running for 1.46)
+2024-09-09T19:07:51.280+08:00  INFO 20272 --- [restartedMain] top.wangxingyu.top.wangxingyu.Application               : Started top.wangxingyu.Application in 1.083 seconds (process running for 1.46)
 2024-09-09T19:08:03.585+08:00  INFO 20272 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-09T19:08:03.585+08:00  INFO 20272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-09-09T19:08:03.586+08:00  INFO 20272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

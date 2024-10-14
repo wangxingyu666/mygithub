@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.wangxingyu.mapper.AnswerMapper">
+    <resultMap id="AnswerResultMap" type="top.wangxingyu.model.Answer">
+        <id property="id" column="id" />
+        <result property="content" column="content" />
+        <result property="questionId" column="question_id" />
+        <result property="userId" column="user_id" />
+        <result property="createdAt" column="created_at" />
+    </resultMap>
+
+    <select id="findAnswersByQuestionId" parameterType="int" resultMap="AnswerResultMap">
+        SELECT * FROM answers WHERE question_id = #{questionId}
+    </select>
+
+    <insert id="insertAnswer" parameterType="top.wangxingyu.model.Answer">
+        INSERT INTO answers (content, question_id, user_id, created_at)
+        VALUES (#{content}, #{questionId}, #{userId}, NOW())
+    </insert>
+</mapper>
