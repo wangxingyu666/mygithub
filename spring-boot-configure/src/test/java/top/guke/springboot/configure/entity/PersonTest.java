@@ -3,7 +3,7 @@ package top.guke.springboot.configure.entity;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.guke.springboot.configure.Application;
+import top.wangxingyu.springboot.configure.entity.Person;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest

@@ -21,6 +21,7 @@
         <module>spring-boot-configure</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-mp</module>
+        <module>spring-boot-exception</module>
     </modules>
 
     <properties>
