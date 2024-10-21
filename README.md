@@ -8,3 +8,4 @@
 - spring-boot-mybatis: 数据库模块
 - spring-boot-mp: Mybatis Plus 模块
 - spring-boot-exception: 全局统一异常处理模块
+- spring-boot-redis
