@@ -1,11 +1,11 @@
 package top.wangxingyu.service;
 
+import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import top.wangxingyu.mapper.UserMapper;
 import top.wangxingyu.model.User;
-import top.wangxingyu.util.JwtUtils ;
-import org.mindrot.jbcrypt.BCrypt;
+import top.wangxingyu.util.JwtUtils;
 
 /**
  * @author 笼中雀
@@ -16,23 +16,24 @@ public class UserService {
     private UserMapper userMapper;
 
     public void registerUser(User user) {
-        // 使用 BCrypt 对密码进行加密
+        if (userMapper.findByUsername(user.getUsername()) != null) {
+            throw new IllegalArgumentException("Username already exists");
+        }
         user.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt()));
         userMapper.insertUser(user);
     }
 
+
     public String login(String username, String password) {
         User user = userMapper.findByUsername(username);
         if (user != null && BCrypt.checkpw(password, user.getPassword())) {
-            // 生成 JWT Token
-            return JwtUtils.generateToken(user.getId());
+            String token = JwtUtils.generateToken(user.getId());
+            System.out.println("Generated token: " + token);
+            return token;
         }
         return null;
     }
-
     public User getUserById(int id) {
-        // 实现根据 ID 获取用户信息的方法
-        // 这里可以直接调用 Mapper 方法
-        return null;
+        return userMapper.findById(id);
     }
 }

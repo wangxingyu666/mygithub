@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <mapper namespace="top.wangxingyu.mapper.QuestionMapper">
     <resultMap id="QuestionResultMap" type="top.wangxingyu.model.Question">
         <id property="id" column="id" />
         <result property="title" column="title" />
         <result property="content" column="content" />
         <result property="userId" column="userId" />
+        <result property="username" column="username" /> <!-- 添加 username 的映射 -->
         <result property="createTime" column="createTime" />
     </resultMap>
 
     <select id="findAllQuestions" resultMap="QuestionResultMap">
-        SELECT * FROM questions
+        SELECT q.id, q.title, q.content, q.userId, u.username, q.createTime
+        FROM questions q
+        JOIN users u ON q.userId = u.id
     </select>
 
     <select id="findQuestionById" parameterType="int" resultMap="QuestionResultMap">
-        SELECT * FROM questions WHERE id = #{id}
+        SELECT q.id, q.title, q.content, q.userId, u.username, q.createTime
+        FROM questions q
+        JOIN users u ON q.userId = u.id
+        WHERE q.id = #{id}
     </select>
 
     <insert id="insertQuestion" parameterType="top.wangxingyu.model.Question">
         INSERT INTO questions (title, content, userId, createTime)
-        VALUES (#{title}, #{content}, #{userId}, #{createTime})
+        VALUES (#{title}, #{content}, #{userId}, now())
     </insert>
 </mapper>

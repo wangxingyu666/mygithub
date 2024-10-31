@@ -1,6 +1,9 @@
 package top.wangxingyu.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -16,7 +19,6 @@ public class Question {
     private String title;
     private String content;
     private Integer userId;
+    private String username;
     private Date createTime;
-
-
 }

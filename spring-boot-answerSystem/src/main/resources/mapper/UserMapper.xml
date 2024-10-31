@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="top.wangxingyu.mapper.UserMapper">
-    <select id="findByUsername" parameterType="String" resultType="top.wangxingyu.model.User">
-        SELECT * FROM users WHERE username = #{username}
-    </select>
 
-    <insert id="insertUser"  parameterType="top.wangxingyu.model.User">
-        INSERT INTO users (username, password, email, createTime)
-        VALUES (#{username}, #{password}, #{email}, #{createTime})
-    </insert>
-</mapper>
+<mapper namespace="top.wangxingyu.mapper.UserMapper">
+    <resultMap id="UserResultMap" type="top.wangxingyu.model.User">
+        <id property="id" column="id" />
+        <result property="username" column="username" />
+        <result property="password" column="password" />
+        <result property="email" column="email" />
+        <result property="createTime" column="createTime" />
+    </resultMap>
+        <select id="findByUsername" parameterType="String" resultMap="UserResultMap">
+            SELECT id, username, password, email, createTime
+            FROM users
+            WHERE username = #{username}
+        </select>
+
+        <insert id="insertUser" parameterType="top.wangxingyu.model.User">
+            INSERT INTO users (username, password, email, createTime)
+            VALUES (#{username}, #{password}, #{email}, now())
+        </insert>
+
+        <select id="findById" parameterType="Integer" resultMap="UserResultMap">
+            SELECT id, username, password, email, createTime
+            FROM users
+            WHERE id = #{id}
+        </select>
+    </mapper>
+
+

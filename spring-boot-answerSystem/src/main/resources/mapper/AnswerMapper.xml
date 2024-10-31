@@ -4,17 +4,20 @@
     <resultMap id="AnswerResultMap" type="top.wangxingyu.model.Answer">
         <id property="id" column="id" />
         <result property="content" column="content" />
-        <result property="questionId" column="question_id" />
-        <result property="userId" column="user_id" />
-        <result property="createdAt" column="created_at" />
+        <result property="questionId" column="questionId" />
+        <result property="userId" column="userId" />
+        <result property="username" column="username" />
+        <result property="createdTime" column="createdTime" />
     </resultMap>
 
     <select id="findAnswersByQuestionId" parameterType="int" resultMap="AnswerResultMap">
-        SELECT * FROM answers WHERE question_id = #{questionId}
+        SELECT a.*, u.username FROM answers a
+        JOIN users u ON a.userId = u.id
+        WHERE a.questionId = #{questionId}
     </select>
 
     <insert id="insertAnswer" parameterType="top.wangxingyu.model.Answer">
-        INSERT INTO answers (content, question_id, user_id, created_at)
+        INSERT INTO answers (content, questionId, userId, createdTime)
         VALUES (#{content}, #{questionId}, #{userId}, NOW())
     </insert>
 </mapper>

@@ -7,7 +7,6 @@ import top.wangxingyu.model.Question;
 
 import java.util.List;
 
-
 @Service
 public class QuestionService {
     @Autowired

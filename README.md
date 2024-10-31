@@ -9,3 +9,4 @@
 - spring-boot-mp: Mybatis Plus 模块
 - spring-boot-exception: 全局统一异常处理模块
 - spring-boot-redis
+- spring-boot-task: 定时模块

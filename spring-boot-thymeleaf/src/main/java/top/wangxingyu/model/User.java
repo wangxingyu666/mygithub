@@ -1,5 +1,8 @@
 package top.wangxingyu.model;
 
+/**
+ * @author 笼中雀
+ */
 public class User {
     private Long id;
     private String name;

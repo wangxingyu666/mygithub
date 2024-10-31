@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring_boot?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: password
+
+  quartz:
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: always
+
+  mail:
+    host: smtp.qq.com
+    username: 3318547703@qq.com
+    password: ifcsoqvtevhydbei
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: top.wangxingyu.entity
+
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0

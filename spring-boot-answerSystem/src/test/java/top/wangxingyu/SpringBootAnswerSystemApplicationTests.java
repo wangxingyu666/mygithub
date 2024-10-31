@@ -1,10 +1,10 @@
-package top.wangxingyu.springbootanswersystem;
+package top.wangxingyu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class SpringBootAnswerSystemApplicationTests {
 
     @Test
     void contextLoads() {

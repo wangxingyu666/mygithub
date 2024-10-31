@@ -8,6 +8,9 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+/**
+ * @author 笼中雀
+ */
 @Configuration
 public class SpringMvcConfig implements WebMvcConfigurer {
 

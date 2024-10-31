@@ -4,6 +4,8 @@ import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import top.wangxingyu.springboot.configure.entity.Dog;
+import top.wangxingyu.springboot.configure.entity.Student;
 
 import static org.junit.jupiter.api.Assertions.*;
 
