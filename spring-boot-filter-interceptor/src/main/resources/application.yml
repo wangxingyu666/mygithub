@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{HH:mm:ss} - %msg%n"
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-nanjing.aliyuncs.com
+    accessKeyId:
+    accessKeySecret:
+    bucketName: my-wxy-bucket
+spring:
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
